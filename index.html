@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Calculator app</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+  </style>
+</head>
+<body>
+  <section class="main-container first-theme">
+
+    <div class="container">
+      <div class="heading">
+        <div class="logo">calc</div>
+        <div class="theme">
+          <div class="theme-text">THEME</div>
+          <div class="theme-switch">
+            <div class="theme1">
+              <span class="no1">1</span>
+              <input type="radio" name="theme" class="theme-1">
+            </div>
+            <div class="theme2">
+              <span class="no2">2</span>
+              <input type="radio" name="theme" class="theme-2">
+            </div>
+            <div class="theme1">
+              <span class="no3">3</span>
+              <input type="radio" name="theme" class="theme-3">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="output">
+        <div class="previous-text"></div>
+        <div class="current-text"></div>
+      </div>
+
+      <div class="btn-container">
+        <button data-num>7</button>
+        <button data-num>8</button>
+        <button data-num>9</button>
+        <button data-delete class="delete">DEL</button>
+        <button data-num>4</button>
+        <button data-num>5</button>
+        <button data-num>6</button>
+        <button data-operation>+</button>
+        <button data-num>1</button>
+        <button data-num>2</button>
+        <button data-num>3</button>
+        <button data-operation>-</button>
+        <button data-num>.</button>
+        <button data-num>0</button>
+        <button data-operation>/</button>
+        <button data-operation>*</button>
+        <button data-reset class="span2 reset">Reset</button>
+        <button data-equals class="span2 equals">=</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
