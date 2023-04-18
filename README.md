@@ -1,4 +1,4 @@
-# Frontend Mentor - Calculator app
+# Calculator app
 
 ## Welcome! 👋
 

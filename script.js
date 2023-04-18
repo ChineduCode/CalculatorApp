@@ -101,3 +101,13 @@ themesInput.forEach(theme => theme.addEventListener('click', ()=>{
         mainContainer.classList.remove('second-theme')
     }
 }))
+
+//function showing the current theme
+themesInput.forEach(input => {
+    input.addEventListener('click', ()=> {
+        const activeInput = document.querySelectorAll('.active')
+        activeInput[0].classList = activeInput[0].className.replace('active', '')
+
+        input.className += ' active'
+    })
+})

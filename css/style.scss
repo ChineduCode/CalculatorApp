@@ -3,17 +3,14 @@
     padding: 0%;
     box-sizing: border-box;
 }
-body{
-    font-family: 'League Spartan', sans-serif;
-    height: 100vh;
-}
+body{ font-family: 'League Spartan', sans-serif; }
 
 .main-container{
     background-color: hsl(222, 26%, 31%);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 110vh;
+    height: 100vh;
 }
 
 //first theme
@@ -50,6 +47,14 @@ body{
                         width: 20px;
                         margin-top: 5px;
                         cursor: pointer;
+                        -webkit-appearance: none;
+                        border: solid 2px darkgray;
+                        border-radius: 50%;
+                        background-color: white;
+                        outline: none;
+                    }
+                    .active{
+                        background-color: grey;
                     }
                 }
             }

@@ -6,7 +6,6 @@
 
 body {
   font-family: "League Spartan", sans-serif;
-  height: 100vh;
 }
 
 .main-container {
@@ -14,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 110vh;
+  height: 100vh;
 }
 
 .container {
@@ -52,6 +51,14 @@ body {
   width: 20px;
   margin-top: 5px;
   cursor: pointer;
+  -webkit-appearance: none;
+  border: solid 2px darkgray;
+  border-radius: 50%;
+  background-color: white;
+  outline: none;
+}
+.container .heading .theme .theme-switch div .active {
+  background-color: grey;
 }
 .container .output {
   background-color: hsl(224, 36%, 15%);
